@@ -17,7 +17,7 @@ Swal.fire({
   },
   willClose: () => {
     clearInterval(timerInterval)
-    window.location.href = '/profile';
+    window.location.href = 'profile.html';
   }
 }).then((result) => {
   if (result.dismiss === Swal.DismissReason.timer) {
@@ -41,7 +41,7 @@ Swal.fire({
   },
   willClose: () => {
     clearInterval(timerInterval)
-    window.location.href = '/portofolio';
+    window.location.href = 'portofolio.html';
   }
 }).then((result) => {
   if (result.dismiss === Swal.DismissReason.timer) {
@@ -65,7 +65,7 @@ Swal.fire({
   },
   willClose: () => {
     clearInterval(timerInterval)
-    window.location.href = '/hubungi_saya';
+    window.location.href = 'hubungi_saya.html';
   }
 }).then((result) => {
   if (result.dismiss === Swal.DismissReason.timer) {
@@ -89,7 +89,7 @@ Swal.fire({
   },
   willClose: () => {
     clearInterval(timerInterval)
-    window.location.href = '/hubungi_saya';
+    window.location.href = 'hubungi_saya.html';
   }
 }).then((result) => {
   if (result.dismiss === Swal.DismissReason.timer) {
@@ -171,7 +171,7 @@ function tamat() {
         },
         willClose: () => {
           clearInterval(timerInterval)
-          window.location.href = '/';
+          window.location.href = 'index.html';
         }
       }).then((result) => {
         if (result.dismiss === Swal.DismissReason.timer) {
